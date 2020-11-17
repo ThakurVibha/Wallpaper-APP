@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F2050505"
+    android:layout_height="match_parent"
+    tools:context=".FullScreenWallpaper">
+    <com.github.chrisbanes.photoview.PhotoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/photoView"/>
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/btnSetWallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginBottom="82dp"
+        android:backgroundTint="#0B0707"
+        android:fontFamily="serif-monospace"
+        android:padding="10dp"
+        android:text="Set Wallpaper"
+        android:textAllCaps="false"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:button_icon="@drawable/image"
+        android:textStyle="bold"
+        app:expandable_area_color="#C3090909"
+        app:hide_text="Set Wallpaper"
+        app:icon_button_color="#FBFBF4"
+        app:magic_button_size="55dp" />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/btnDownloadSetWallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginBottom="176dp"
+        android:backgroundTint="#0B0707"
+        android:fontFamily="serif-monospace"
+        android:padding="10dp"
+        android:text="Download"
+        android:textAllCaps="false"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:button_icon="@drawable/download"
+        app:expandable_area_color="#C3090909"
+        app:hide_text="Download"
+        app:icon_button_color="#FBFBF4"
+        app:magic_button_size="55dp" />
+
+
+</RelativeLayout>
