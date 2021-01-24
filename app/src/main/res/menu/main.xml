@@ -3,7 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:title="Search"
         android:id="@+id/nav_search"
+        android:title="Search"
         app:showAsAction="always"/>
+    <item
+        android:id="@+id/dev_contact"
+        android:icon="@drawable/search_icon"
+        android:title="Contact Developer"
+        app:showAsAction="always"/>
+        />
 </menu>

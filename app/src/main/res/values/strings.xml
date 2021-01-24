@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Wallpaper App</string>
+    <string name="app_name">Wallbunny</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="hi_i_am_guju">hi i am guju</string>
+    <string name="download">Download</string>
+    <string name="guess_what_wallpy_has_been_set">Guess what Wallbunny has been set</string>
 </resources>

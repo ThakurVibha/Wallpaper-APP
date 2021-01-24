@@ -4,55 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="#F2050505"
+    android:transitionName="transition_full_screen"
+    android:background="@drawable/black_circle"
     android:layout_height="match_parent"
     tools:context=".FullScreenWallpaper">
+
     <com.github.chrisbanes.photoview.PhotoView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
         android:id="@+id/photoView"/>
 
-    <br.com.bloder.magic.view.MagicButton
+    <Button
         android:id="@+id/btnSetWallpaper"
-        android:layout_width="wrap_content"
+        android:layout_width="209dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="55dp"
-        android:layout_marginBottom="82dp"
-        android:backgroundTint="#0B0707"
-        android:fontFamily="serif-monospace"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/white_circle"
+        android:fontFamily="@font/fredoka"
         android:padding="10dp"
-        android:text="Set Wallpaper"
+        android:text="@string/set_wallpaper"
         android:textAllCaps="false"
-        android:textColor="#070707"
-        android:textSize="20sp"
-        app:button_icon="@drawable/image"
-        android:textStyle="bold"
-        app:expandable_area_color="#C3090909"
-        app:hide_text="Set Wallpaper"
-        app:icon_button_color="#FBFBF4"
-        app:magic_button_size="55dp" />
+        android:textColor="#040404"
+        android:textSize="18sp" />
 
-    <br.com.bloder.magic.view.MagicButton
-        android:id="@+id/btnDownloadSetWallpaper"
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:elevation="8dp"
+        android:layout_centerInParent="true">
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="63dp"
+        android:layout_height="57dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="55dp"
-        android:layout_marginBottom="176dp"
-        android:backgroundTint="#0B0707"
-        android:fontFamily="serif-monospace"
-        android:padding="10dp"
-        android:text="Download"
-        android:textAllCaps="false"
-        android:textColor="#070707"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:button_icon="@drawable/download"
-        app:expandable_area_color="#C3090909"
-        app:hide_text="Download"
-        app:icon_button_color="#FBFBF4"
-        app:magic_button_size="55dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        app:srcCompat="@drawable/whitebunny" />
+
 
 
 </RelativeLayout>

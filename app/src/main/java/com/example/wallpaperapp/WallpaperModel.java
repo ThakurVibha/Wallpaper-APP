@@ -2,15 +2,27 @@ package com.example.wallpaperapp;
 
 public class WallpaperModel {
     private int id;
-    private String originalUrl,mediumUrl;
-    public WallpaperModel(){
+    private String originalUrl, mediumUrl;
+    private String nextPage;
+
+    public WallpaperModel() {
 
     }
 
-    public WallpaperModel(int id, String originalUrl, String mediumUrl) {
+    public WallpaperModel(int id, String originalUrl, String mediumUrl, String nextPage) {
         this.id = id;
         this.originalUrl = originalUrl;
         this.mediumUrl = mediumUrl;
+        this.nextPage=nextPage;
+
+    }
+
+    public String getNextPage() {
+        return nextPage;
+    }
+
+    public void setNextPage(String nextPage) {
+        this.nextPage = nextPage;
     }
 
     public int getId() {

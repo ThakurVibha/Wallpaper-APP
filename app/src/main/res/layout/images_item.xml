@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="315dp"
     android:elevation="20dp"
-    app:cardCornerRadius="25dp"
-    app:cardBackgroundColor="#fff"
-    android:layout_height="250dp">
+    app:cardBackgroundColor="#000000"
+    app:cardCornerRadius="50dp"
+    >
 
     <ImageView
         android:id="@+id/imageViewItem"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
         android:elevation="20dp"
-        android:layout_marginTop="3dp"
+        android:transitionName="transition_full_screen"
+        android:background="@drawable/black_circle"
+        android:scaleType="centerCrop"
         />
-
-
-
-
-
-
-
-
-
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="50dp"
+        android:visibility="invisible"
+        android:layout_height="50dp"
+        android:background="@drawable/white_circle"
+        android:layout_centerInParent="true"/>
 </androidx.cardview.widget.CardView>
