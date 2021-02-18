@@ -31,6 +31,7 @@ public class FullScreenWallpaper extends AppCompatActivity {
     String originalUrl = "";
     PhotoView photoView;
     Button magicButton, downloadButton;
+    ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

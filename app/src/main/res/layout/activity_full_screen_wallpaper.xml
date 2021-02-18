@@ -23,12 +23,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="55dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/white_circle"
+        android:background="@drawable/button_outline"
         android:fontFamily="@font/fredoka"
         android:padding="10dp"
         android:text="@string/set_wallpaper"
         android:textAllCaps="false"
-        android:textColor="#040404"
+        android:textColor="#FFFCFC"
         android:textSize="18sp" />
 
     <RelativeLayout
