@@ -17,11 +17,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.MainActivity">
 
         </activity>
-        <activity android:name=".FullScreenWallpaper" />
-        <activity android:name=".SplashScreen">
+        <activity android:name=".activities.FullScreenWallpaper" />
+        <activity android:name=".activities.SplashScreen">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

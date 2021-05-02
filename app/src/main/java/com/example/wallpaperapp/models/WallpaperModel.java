@@ -1,4 +1,4 @@
-package com.example.wallpaperapp;
+package com.example.wallpaperapp.models;
 
 public class WallpaperModel {
     private int id;

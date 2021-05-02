@@ -1,9 +1,7 @@
-package com.example.wallpaperapp;
+package com.example.wallpaperapp.adapters;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +10,10 @@ import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
+import com.example.wallpaperapp.R;
+import com.example.wallpaperapp.models.WallpaperModel;
+import com.example.wallpaperapp.activities.FullScreenWallpaper;
+
 import java.util.List;
 public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperViewHolder> {
 

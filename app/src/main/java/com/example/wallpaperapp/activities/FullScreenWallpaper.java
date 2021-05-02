@@ -1,11 +1,9 @@
-package com.example.wallpaperapp;
+package com.example.wallpaperapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.DownloadManager;
 import android.app.ProgressDialog;
 import android.app.WallpaperManager;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
@@ -20,12 +18,10 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.wallpaperapp.R;
 import com.github.chrisbanes.photoview.PhotoView;
 
 import java.io.IOException;
-
-import br.com.bloder.magic.view.MagicButton;
-import es.dmoral.toasty.Toasty;
 
 public class FullScreenWallpaper extends AppCompatActivity {
     String originalUrl = "";

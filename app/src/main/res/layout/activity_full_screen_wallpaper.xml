@@ -7,7 +7,7 @@
     android:transitionName="transition_full_screen"
     android:background="@drawable/black_circle"
     android:layout_height="match_parent"
-    tools:context=".FullScreenWallpaper">
+    tools:context=".activities.FullScreenWallpaper">
 
     <com.github.chrisbanes.photoview.PhotoView
         android:layout_width="match_parent"
